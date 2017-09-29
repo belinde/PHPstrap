@@ -1,0 +1,23 @@
+{
+  "name": "belinde/phpstrap",
+  "description": "Wrap Bootstrap 4 in a PHP 7 class system",
+  "type": "library",
+  "license": "GPL3",
+  "authors": [
+    {
+      "name": "Franco Traversaro",
+      "email": "f.traversaro@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PHPstrap\\": "src/"
+    }
+  },
+  "require": {},
+  "config": {
+    "platform": {
+      "php": "7"
+    }
+  }
+}
